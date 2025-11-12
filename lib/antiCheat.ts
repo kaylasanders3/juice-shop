@@ -16,6 +16,8 @@ import * as utils from './utils'
 import median from 'median'
 import { type ChallengeKey } from 'models/challenge'
 
+//comment to trigger codeQL scan
+
 const coupledChallenges = { // TODO prevent also near-identical challenges (e.g. all null byte file access or dom xss + bonus payload etc.) from counting as cheating
   loginAdminChallenge: ['weakPasswordChallenge'],
   nullByteChallenge: ['easterEggLevelOneChallenge', 'forgottenDevBackupChallenge', 'forgottenBackupChallenge', 'misplacedSignatureFileChallenge'],
