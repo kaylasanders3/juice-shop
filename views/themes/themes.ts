@@ -2,7 +2,7 @@
  * Copyright (c) 2014-2025 Bjoern Kimminich & the OWASP Juice Shop contributors.
  * SPDX-License-Identifier: MIT
  */
-
+//comment to trigger code scan
 export const themes = {
   'bluegrey-lightgreen': {
     bgColor: '#303030',
